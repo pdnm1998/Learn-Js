@@ -1,0 +1,77 @@
+    1  git init // cấp quyền master cho git
+    2  code.
+    3  code .
+    4  clear
+    5  git init
+    6  cd ..
+    7  cd Buoi7
+    8  git add
+    9  ls
+   10  git add index.html 
+   11  git add index.html 
+   12  ls
+   13  git add index.html 
+   14  git add index.html 
+   15  git add index.html 
+   16  clear
+   17  git log	
+   18  git status
+   19  git commit -m "khoi tao index" 
+   20  git log
+   21  git add index.html  app.js 
+   22  git add .
+   23  git commit -m "khoi tao index va app"
+   24  clear
+   25  ls
+   26  git add .
+   27  git log
+   28  git status
+   29  git commit -m " tinh tuoi "
+   30  git add .
+   31  git commit -m "kiem tra nam sinh hop le"
+   32  clear
+   33  cd C4E
+   34  cd ..
+   35  git add .
+   36  git init
+   37  git add .
+   38  git add .
+   39  git commit -m " Learning JS Day 7"
+   40  git remote add origin https://github.com/pdnm1998/Learn-Js.git  // gán link github cho 1 tên bất kỳ 
+   41  git remote -v // hiển thị tên remote
+   42  git branch test // thêm nhánh 
+   43  git branch // xem các nhánh 
+   44  git checkout test  // đổi sang nhánh test
+   45  git add .
+   46  git commit -m "testing "
+   47  git add .
+   48  git commit -m "testing "
+   49  git branch
+   50  git checkout master // đổi sang nhánh master 
+   51  git branch
+   52  git merge test // nới commit test vào master
+   53  git log
+   54  git log
+   55  git branch
+   56  git push origin master
+   57  git add .
+   58  git commit -m "test "
+   59  git push origin master
+   60  git remote -v
+   61  git remote remove
+   62  git remote remove ỏigin
+   63  git remote -v
+   64  clear
+   65  git remote add ỏorigin https://github.com/pdnm1998/Learn-Js.git
+   66  git remote -v
+   67* git remote remove origin //  xóa tên 
+   68  git remote add origin https://github.com/pdnm1998/Learn-Js.git
+   69  git remote -v
+   70  git push origin
+   71  git branch
+   72  git push origin master
+   73  git push origin master
+   74  code .
+   75  clear
+   76  history
+   77  history > hocgit.txt
