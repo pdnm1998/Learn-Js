@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính bỏ túi cơ bản</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt("A=")
+        var operator = prompt("nhập vào phép toán .")
+        var b = prompt("B=")
+        console.log(typeof a)
+        if (operator == "+") {
+            //console.log(+a + +b)
+            console.log(parseInt(a) + parseInt(b))
+        }
+
+        if (operator == "-") {
+
+            console.log(parseInt(a) - parseInt(b))
+        }
+        if (operator == "*") {
+
+            console.log(parseInt(a) * parseInt(b))
+        }
+        if (operator == "/") {
+
+            console.log(parseInt(a) / parseInt(b))
+        }
+        if (operator == "^") {
+
+            console.log(Math.pow(parseInt(a), parseInt(b)))
+        }
+        if (operator == "%") {
+
+            console.log(parseInt(a), parseInt(b))
+        }
+
+    </script>
+</body>
+
+</html>

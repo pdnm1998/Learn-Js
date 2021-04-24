@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 2 - Conditional - loop</title>
+</head>
+
+<body>
+    <script>
+        // đơn hướng
+        var i = 1
+        if (true) {
+            console.log("i'm running...")
+        }
+        // Bieu thuc so sanh == , < , > , <= , >= , != , ! 
+        // toan tu thuc hien truoc so sanh 
+        if ((1 + 1 != 0)) {
+            console.log("1=0")
+        }
+        // and - or 
+        //and : 
+        // true and true => true 
+        // true and false => false 
+        // false and false => false 
+        //false
+        // true or true => true 
+        // true or false => true 
+        // false or false => false 
+        if (true && false || true) {
+            console.log("true");
+        }
+        // so sánh có độ ưu tiên trái sang phải ; trong ngoặc trước .
+        if ("minh" == 'minh') {
+            console.log("true1");
+        }
+        // Truthy and falsy
+        if (5 - 8) {// 0 (giá trị 0 trả về false)
+            console.log("falsy")
+        }
+        if (null || true) {
+            console.log("hello null");
+        }
+        if ("") {
+            console.log("");
+        }
+        var a = 1
+        if (a) {
+            console.log("hello a");
+        }
+        // var a = prompt("Bạn hãy nhập vào số a")
+        // console.log(a);
+        // var b = prompt("Bạn hãy nhập vào số b")
+        // console.log(b);
+        // điều kiện rẽ nhánh 
+        if (5 - 3) {
+            console.log("true");
+        }
+        else {
+            console.log("false")
+        }
+        // điều kiện rẽ  nhánh đa luồng
+        if (false) {
+            console.log("1");
+        }
+        else if (false) {
+            console.log("2");
+        }
+        else if (true) {
+            console.log("3");
+        } else {
+            console.log("hello");
+        }
+        // tien to va hau to
+        var a = 1
+        var x = 1
+        // a++ // hau to
+        // ++a // tien to
+        // a--
+        // --a
+        // console.log(a);
+        var b = a++ // hậu tố : gán giá trị trước khi thay đổi
+        console.log("b=", b);
+        console.log("a=", a);
+        var y = ++x // tiền tố : gán giá trị sau khi thay đổi
+        console.log("x=", x);
+        console.log("y=", y);
+        //switch
+        switch ("hello") {
+            case "helle":
+                console.log("wrong");
+            case "hello":
+                console.log("corect");
+                
+            case "hello":
+                console.log("dung");
+            case "helle":
+                console.log("wrong");
+        }
+    </script>
+</body>
+
+</html>
