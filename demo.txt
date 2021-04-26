@@ -75,3 +75,34 @@
    75  clear
    76  history
    77  history > hocgit.txt
+
+   78  history 50
+   79  cd ..
+   80  cd Clone/
+   81  git clone https://github.com/pdnm1998/Learn-Js.git
+   82  git add .
+   83  git add .
+   84  cd Learn-Js/
+   85  git add .
+   86  git commit -m "demo"
+   87  git push origin "demo"
+   88  git push origin master
+   89  cd ..
+   90  cd ..
+   91  ls
+   92  cd C4E/
+   93  git add .
+   94  git pull
+   95  git add .
+   96  git commit -m "demo"
+   97  git push origin master
+   98  git pull origin master // update code về máy 
+   99  git pull origin master
+  100  git pull origin master
+  101  code .
+  102  cd
+  103  git remote -v
+  104  history
+  105  history demo.txt
+  106  ls
+  107  history > demo.txt
