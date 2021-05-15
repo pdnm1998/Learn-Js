@@ -49,7 +49,7 @@
    49  git branch
    50  git checkout master // đổi sang nhánh master 
    51  git branch
-   52  git merge test // nới commit test vào master
+   52  git merge test // nối commit test vào master
    53  git log
    54  git log
    55  git branch
@@ -79,7 +79,7 @@
    78  history 50
    79  cd ..
    80  cd Clone/
-   81  git clone https://github.com/pdnm1998/Learn-Js.git
+   81  git clone https://github.com/pdnm1998/Learn-Js.git // tai? ve` may' 
    82  git add .
    83  git add .
    84  cd Learn-Js/
