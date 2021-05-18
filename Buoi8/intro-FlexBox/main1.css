@@ -1,0 +1,15 @@
+/* h1{
+    color: red;
+} */
+*{
+    color: red;
+}
+li{
+    color: black;
+}
+html{
+    color: red;
+}
+h1{
+    color: red !important;
+}
