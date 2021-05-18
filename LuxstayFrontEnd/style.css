@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.action {
+    color: black;
+    font-size: 16px;
+}
+
+.action:hover {
+    color: red;
+}
+
+#hello {
+    margin-left: 2%;
+}
+
+#img {
+    width: 203px;
+}
+
+.box {
+    float: left;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.box:hover>h3 {
+    color: red;
+}
+
+.sugestion {
+    background-color: white;
+    border: 1px solid white;
+    width: 203px;
+}
+
+.sugestion1 {
+    background-color: white;
+    border: 1px solid white;
+    width: 203px;
+    margin: 0 0 0 20px;
+}
