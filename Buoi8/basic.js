@@ -10,11 +10,11 @@ var x = "Hello";
 var isHandsome = true;
 var students = ["Toan", "Hien"];
 var k = 12
-if(true) {
+if (true) {
     let k = 10;
 }
 let person = {
-    fullName : "Nguyen Duc Hanh",
+    fullName: "Nguyen Duc Hanh",
 }
 
 // console.log(k); no use // khong duoc su dung
@@ -24,7 +24,7 @@ const PI = 3.14; // access but no redefined
 
 // Conditional - Dieu kien
 
-if(5 > 2) {
+if (5 > 2) {
     //True Statement
     console.log("Hello");
 } else {
@@ -32,11 +32,11 @@ if(5 > 2) {
     console.log("Sai roi");
 }
 
-if(5 < 2) {
+if (5 < 2) {
     console.log("Running");
 } else if (5 < 4) {
     console.log("Running");
-} else if(5 < 1) {
+} else if (5 < 1) {
     console.log("Running");
 } else {
     console.log("Something else");
@@ -45,37 +45,37 @@ if(5 < 2) {
 // Switch case
 
 
-switch(5) {
-    case 1 :
+switch (5) {
+    case 1:
         console.log("hello");
-    case 5 : 
+    case 5:
         console.log("hi");
         break;
-    case 5 :
+    case 5:
         console.log("Runinggg");
         break;
-    default: 
+    default:
         console.log("Defautl");
 }
 
 // Loop - Vong lap
 
 for (let i = 0; i < 5; i++) {
-        console.log(i);
+    console.log(i);
 }
 // 123 => 123 %  10= 3 => parseInt(123/10) = 12 => .
 // Expected : 321
-while(i < 10) {
+while (i < 10) {
     i++;
     console.log(i);
 }
 // arr 
 for (const value of arr) {
-    
+
 }
 
 for (const key in object) {
-    
+
 }
 // for..in : 
 // for..of :
@@ -99,8 +99,8 @@ for (const key in object) {
 // Object
 
 let hanh = {
-    fullName : "Nguyen Duc Hanh",
-    address : "Thai Nguyen",
+    fullName: "Nguyen Duc Hanh",
+    address: "Thai Nguyen",
     greeting: function() {
         console.log("Hello");
     }
