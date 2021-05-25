@@ -1,0 +1,42 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #cha {
+        height: 300px;
+        margin: 70px 70px 0px;
+        border-radius: 20px;
+        background-color: lightcoral;
+        position: relative;
+    }
+    
+    #con {
+        position: absolute;
+        width: 20%;
+        height: 250px;
+        background-color: lightgreen;
+        bottom: -100px;
+        left: 10%;
+        border-radius: 10px;
+    }
+    
+    #con1 {
+        position: absolute;
+        width: 20%;
+        height: 250px;
+        background-color: lightgreen;
+        bottom: -100px;
+        left: 40%;
+        border-radius: 10px;
+    }
+    
+    #con2 {
+        position: absolute;
+        width: 20%;
+        height: 250px;
+        background-color: lightgreen;
+        bottom: -100px;
+        left: 70%;
+        border-radius: 10px;
+    }

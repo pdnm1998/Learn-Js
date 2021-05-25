@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cha {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+
+#con {
+    width: 10%;
+    height: 50%;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#con1 {
+    width: 10%;
+    height: 50%;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+#con2 {
+    width: 10%;
+    height: 50%;
+    background-color: lightslategrey;
+    border-radius: 10px;
+}

@@ -18,27 +18,25 @@
 
 #img {
     width: 203px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.box {
-    float: left;
+#box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
     border-radius: 10px;
-    overflow: auto;
-}
-
-.box:hover>h3 {
-    color: red;
 }
 
 .sugestion {
     background-color: white;
     border: 1px solid white;
     width: 203px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
 }
 
-.sugestion1 {
-    background-color: white;
-    border: 1px solid white;
-    width: 203px;
-    margin: 0 0 0 20px;
+.sugestion:hover>a {
+    color: red;
 }
