@@ -1,4 +1,8 @@
-let a, b = 0, x = 0, y = 0, z = 0, sai = 0
+let a, b = 0,
+    x = 0,
+    y = 0,
+    z = 0,
+    sai = 0
 let giohang = [ga = {
     ten: "thitga",
     gia: 1000,
@@ -8,8 +12,7 @@ let giohang = [ga = {
 }, cho = {
     ten: "thitcho",
     gia: 3000
-}
-]
+}]
 
 do {
     a = prompt("Có 3 loại thịt là : gà(1000) , lợn(2000) , chó(300) .Mời bạn chọn mua : ")
@@ -38,4 +41,4 @@ do {
 } while (a != "thoi")
 // console.log(a);
 // console.log(b);
-console.log("Bạn mua : ",x/parseInt(giohang[0].gia),"con gà,",y/parseInt(giohang[1].gia),"con lợn và ",z/parseInt(giohang[2].gia),"con chó .\n Tổng số tiền bạn phải trả là :", parseInt(x) + parseInt(y) + parseInt(z));
+console.log("Bạn mua : ", x / parseInt(giohang[0].gia), "con gà,", y / parseInt(giohang[1].gia), "con lợn và ", z / parseInt(giohang[2].gia), "con chó .\n Tổng số tiền bạn phải trả là :", parseInt(x) + parseInt(y) + parseInt(z));

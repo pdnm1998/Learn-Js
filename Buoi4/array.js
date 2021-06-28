@@ -18,17 +18,18 @@ while (i < a.length) {
 
 //a.forEach()
 // Callback là : tham số chuyền vào là một Funtion
+
 function x(a) {
     a()
 }
-x(function () {
+x(function() {
     console.log("hello");
 })
 console.log("==========================");
 
 // a.forEach()
 
-a.forEach(function (value, index) {
+a.forEach(function(value, index) {
     console.log(index, value * 2);
 })
 
@@ -44,7 +45,7 @@ for (let i = 0; i < a.length; i++) {
 
 // min / max 
 //max
-let num = [3, 5, 23, 9, 1, 2,6 , 23, 9, 3, 6, 7]
+let num = [3, 5, 23, 9, 1, 2, 6, 23, 9, 3, 6, 7]
 let max = num[0]
 
 // kỹ thuật cắm cờ 
@@ -63,7 +64,7 @@ for (let i = 0; i < num.length; i++) {
 
 //min 
 
-var min =num[0]
+var min = num[0]
 for (let i = 0; i < num.length; i++) {
     if (min > num[i]) {
         min = num[i]
@@ -75,7 +76,7 @@ console.log(min);
 
 let mang = []
 for (let i = 0; i < 10; i++) {
-    mang[i]=5000
+    mang[i] = 5000
 }
 console.log(mang);
 
@@ -98,19 +99,19 @@ console.log(mang);
 
 mang.shift()
 console.log(mang);
- 
+
 // Sort : 
 
- let mangsort = [1,2,5,3,6,8,0,333,34]
- mangsort.sort()
- console.log(mangsort); 
+let mangsort = [1, 2, 5, 3, 6, 8, 0, 333, 34]
+mangsort.sort()
+console.log(mangsort);
 
- // find 
-
-
-
- // index of 
+// find 
 
 
- // Map , filter , reduce , ...
- // Concat ; CopyWithin ; ...
+
+// index of 
+
+
+// Map , filter , reduce , ...
+// Concat ; CopyWithin ; ...

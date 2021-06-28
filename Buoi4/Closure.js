@@ -1,11 +1,11 @@
-function f1()
-{
+function f1() {
     var N = 0; // N luon duoc khoi tao khoi ham f1 dduowcj thuc thi
     console.log(N);
+
     function f2() // Ham f2
     {
         N += 1; // cong don cho bien N
-        console.log('-->>',N);
+        console.log('-->>', N);
     }
 
     return f2;

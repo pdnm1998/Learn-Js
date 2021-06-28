@@ -7,8 +7,7 @@ let a = [2, 7, 1, 5, 3]
 // let b = a.filter(x => x > 1 && x < 7)
 
 let b = a.filter(function callback(value, index) {
-    console.log(index);
-    if (value > 1 && value < 7) {
+    if (value % 2 == 0) {
         return true
     }
 })
